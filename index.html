@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./JS/main.js"></script>
+    <title>Web Cine</title>
+</head>
+<body>
+
+    <div class="container"> 
+    <h1>Bienvenido a CineWeb</h1>
+    <h2>Con su edad podremos recomendarle contenido mas apto</h2>
+    <p>¿Que edad tiene?</p>
+    <input id="edad" type="number" min="12" max="20"><br>
+    <button onclick="recomendar('comedia')">Comedia</button>
+    <button onclick="recomendar('drama')">Drama</button>
+    <button onclick="recomendar('musical')">Musical</button>
+    <button onclick="recomendar('crimen')">Crimen</button>
+    <h3>Nuestra Recomendación:</h3>
+    <h2 id="textoRespuesta">---</h2>
+    </div>
+</body>
+</html>
