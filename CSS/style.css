@@ -1,0 +1,19 @@
+body {
+    background-color: yellow;
+    border: solid;
+    border-radius: 25px;
+    margin: 350px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container button{
+    border-radius: 25px;
+    background-color: black;
+    margin: 8px;
+}
+
+.container input{
+    border-radius: 25px;
+}
